@@ -1,0 +1,29 @@
+---
+import PresentationLayout from '../layouts/PresentationLayout.astro';
+import Navigation from '../components/Navigation.svelte';
+import Slide01Hero from '../components/slides/Slide01Hero.svelte';
+import Slide02Problema from '../components/slides/Slide02Problema.svelte';
+import Slide03IdeaKarpathy from '../components/slides/Slide03IdeaKarpathy.svelte';
+import Slide04Anatomia from '../components/slides/Slide04Anatomia.svelte';
+import Slide05Plantillas from '../components/slides/Slide05Plantillas.svelte';
+import Slide06FlujoIngesta from '../components/slides/Slide06FlujoIngesta.svelte';
+import Slide07HandsOn1Setup from '../components/slides/Slide07HandsOn1Setup.svelte';
+import Slide08HandsOn2Ingest from '../components/slides/Slide08HandsOn2Ingest.svelte';
+import Slide09MasAlla from '../components/slides/Slide09MasAlla.svelte';
+import Slide10Cierre from '../components/slides/Slide10Cierre.svelte';
+---
+
+<PresentationLayout title="Taller LLM Wiki — tu baúl de conocimiento mantenido por Claude Code">
+  <Navigation client:load>
+    <Slide01Hero client:load />
+    <Slide02Problema client:load />
+    <Slide03IdeaKarpathy client:load />
+    <Slide04Anatomia client:load />
+    <Slide05Plantillas client:load />
+    <Slide06FlujoIngesta client:load />
+    <Slide07HandsOn1Setup client:load />
+    <Slide08HandsOn2Ingest client:load />
+    <Slide09MasAlla client:load />
+    <Slide10Cierre client:load />
+  </Navigation>
+</PresentationLayout>
