@@ -48,23 +48,28 @@
   .slide-content {
     position: relative; z-index: 1;
     max-width: 1200px; width: 100%;
-    padding: var(--spacing-content);
-    display: flex; flex-direction: column; gap: var(--spacing-2xl);
+    min-height: 80vh;
+    padding: var(--spacing-2xl) var(--spacing-content);
+    display: flex; flex-direction: column; justify-content: center; gap: var(--spacing-2xl);
   }
   .slide-header { display: flex; flex-direction: column; gap: var(--spacing-md); }
   .label { font-family: var(--font-mono); font-size: 0.85rem; color: var(--color-electric); letter-spacing: 0.12em; text-transform: uppercase; }
   h2 { margin: 0; font-size: clamp(2rem, 5vw, 3.6rem); line-height: 1.1; }
   .lead { font-size: clamp(1rem, 1.6vw, 1.2rem); opacity: 0.85; max-width: 720px; margin: 0; }
 
-  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--spacing-lg); }
-  .piece { padding: var(--spacing-xl); display: flex; flex-direction: column; gap: var(--spacing-sm); }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--spacing-xl); }
+  .piece {
+    padding: var(--spacing-xl) var(--spacing-2xl);
+    display: flex; flex-direction: column; gap: var(--spacing-md);
+    min-height: 200px;
+  }
   .piece h3 {
-    margin: 0; font-size: 1.05rem;
+    margin: 0; font-size: 1.15rem;
     font-family: var(--font-mono);
     color: var(--color-electric);
     letter-spacing: 0.04em;
   }
-  .piece p { margin: 0; opacity: 0.85; line-height: 1.5; font-size: 0.95rem; }
+  .piece p { margin: 0; opacity: 0.85; line-height: 1.6; font-size: 1rem; }
 
   @media (max-width: 1024px) { .grid { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
