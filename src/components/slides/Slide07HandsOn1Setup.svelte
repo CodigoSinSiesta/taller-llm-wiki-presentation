@@ -68,8 +68,8 @@ git commit -m "Setup inicial: AGENTS.md personalizado y estructura definida"</co
   .slide-content {
     position: relative; z-index: 1;
     max-width: 1300px; width: 100%;
-    padding: var(--spacing-content);
-    display: flex; flex-direction: column; gap: var(--spacing-2xl);
+    padding: var(--spacing-xl) var(--spacing-content);
+    display: flex; flex-direction: column; gap: var(--spacing-lg);
   }
   .slide-header { display: flex; flex-direction: column; gap: var(--spacing-md); }
   .label { font-family: var(--font-mono); font-size: 0.85rem; color: var(--color-electric); letter-spacing: 0.12em; text-transform: uppercase; }
@@ -80,38 +80,38 @@ git commit -m "Setup inicial: AGENTS.md personalizado y estructura definida"</co
     border: 1px solid rgba(96, 165, 250, 0.4);
     border-radius: 999px;
   }
-  h2 { margin: 0; font-size: clamp(2rem, 5vw, 3.6rem); line-height: 1.1; }
+  h2 { margin: 0; font-size: clamp(1.6rem, 4vw, 2.6rem); line-height: 1.1; }
   .highlight {
     background: linear-gradient(135deg, var(--color-accent-bright), var(--color-electric));
     -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
   }
-  .lead { font-size: clamp(1rem, 1.6vw, 1.2rem); opacity: 0.85; max-width: 900px; margin: 0; }
+  .lead { font-size: clamp(0.9rem, 1.3vw, 1.05rem); opacity: 0.8; max-width: 900px; margin: 0; }
 
-  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-lg); }
-  .card-glass { padding: var(--spacing-xl); display: flex; flex-direction: column; gap: var(--spacing-sm); }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-md); }
+  .card-glass { padding: var(--spacing-md) var(--spacing-lg); display: flex; flex-direction: column; gap: var(--spacing-xs); }
   .card-glass.key-step {
     border: 1px solid rgba(96, 165, 250, 0.45);
     background: rgba(30, 58, 138, 0.22);
     box-shadow: 0 8px 32px rgba(10, 22, 40, 0.85), 0 0 24px rgba(59, 130, 246, 0.15);
   }
   .card-glass h3 {
-    margin: 0; font-size: 1rem; font-family: var(--font-mono);
+    margin: 0; font-size: 0.92rem; font-family: var(--font-mono);
     color: var(--color-electric); letter-spacing: 0.04em;
   }
-  .card-glass p { margin: 0; opacity: 0.85; line-height: 1.55; font-size: 0.92rem; }
-  .card-glass ul { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.3rem; }
-  .card-glass li { line-height: 1.5; opacity: 0.9; font-size: 0.9rem; }
+  .card-glass p { margin: 0; opacity: 0.85; line-height: 1.5; font-size: 0.85rem; }
+  .card-glass ul { margin: 0; padding-left: 1.1rem; display: grid; gap: 0.2rem; }
+  .card-glass li { line-height: 1.45; opacity: 0.9; font-size: 0.82rem; }
 
   pre {
     margin: 0;
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-md);
     background: rgba(10, 22, 40, 0.6);
     border: 1px solid rgba(96, 165, 250, 0.18);
     border-radius: var(--radius-md);
     overflow-x: auto;
   }
   pre code {
-    font-family: var(--font-mono); font-size: 0.85rem;
+    font-family: var(--font-mono); font-size: 0.78rem;
     color: var(--color-neutral-light); background: transparent; padding: 0;
   }
   code {
@@ -123,14 +123,15 @@ git commit -m "Setup inicial: AGENTS.md personalizado y estructura definida"</co
 
   .prompt {
     font-style: italic;
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-md);
     background: rgba(96, 165, 250, 0.08);
     border-left: 3px solid var(--color-electric);
     border-radius: var(--radius-sm);
-    font-size: 0.88rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
   }
 
-  .hint { font-size: 0.85rem; opacity: 0.7; }
+  .hint { font-size: 0.78rem; opacity: 0.7; }
 
   @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
 </style>

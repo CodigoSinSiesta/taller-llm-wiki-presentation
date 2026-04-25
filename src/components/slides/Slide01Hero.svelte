@@ -88,12 +88,14 @@
   .slide-content {
     position: relative;
     z-index: 2;
-    max-width: 1100px;
+    max-width: 1200px;
     width: 100%;
-    padding: var(--spacing-content);
+    min-height: 80vh;
+    padding: var(--spacing-2xl) var(--spacing-content);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     gap: var(--spacing-xl);
   }
 
@@ -145,13 +147,14 @@
   }
 
   .subtitle {
-    font-size: clamp(1rem, 2vw, 1.35rem);
+    font-size: clamp(1.05rem, 2.1vw, 1.5rem);
     color: var(--color-neutral-light);
-    opacity: 0.75;
+    opacity: 0.8;
     font-family: var(--font-body);
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.65;
     margin-bottom: 0;
+    max-width: 780px;
     animation: fadeUp 0.7s ease-out 0.2s backwards;
   }
 
@@ -163,9 +166,9 @@
   }
 
   .tool-badge {
-    padding: var(--spacing-xs) var(--spacing-lg);
+    padding: var(--spacing-sm) var(--spacing-lg);
     font-family: var(--font-mono);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 600;
     background: rgba(30, 58, 138, 0.4);
     border: 1px solid rgba(96, 165, 250, 0.25);
@@ -185,28 +188,28 @@
   .author-card {
     display: flex;
     align-items: center;
-    gap: var(--spacing-lg);
-    padding: var(--spacing-lg) var(--spacing-xl);
+    gap: var(--spacing-xl);
+    padding: var(--spacing-xl) var(--spacing-2xl);
     animation: fadeUp 0.7s ease-out 0.4s backwards;
   }
 
   .author-avatar {
-    width: 52px;
-    height: 52px;
+    width: 68px;
+    height: 68px;
     border-radius: 50%;
     flex-shrink: 0;
     object-fit: cover;
   }
 
   .author-name {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--color-neutral-light);
     margin-bottom: var(--spacing-xs);
   }
 
   .author-role {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: var(--color-electric);
     opacity: 0.85;
     font-family: var(--font-mono);
@@ -214,12 +217,12 @@
 
   .author-links {
     display: flex;
-    gap: var(--spacing-sm);
-    margin-top: var(--spacing-xs);
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-sm);
   }
 
   .author-link {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-decoration: none;
     opacity: 0.7;
     transition: opacity var(--transition-fast);
