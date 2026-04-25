@@ -1,6 +1,6 @@
 # taller-llm-wiki-presentation
 
-Presentación interactiva (10 slides, 90-120 min) para el taller **LLM Wiki: tu baúl de conocimiento mantenido por Claude Code**.
+Presentación interactiva (10 slides, 90-120 min) para el taller **LLM Wiki: tu baúl de conocimiento mantenido por tu agente de IA**.
 
 Acompaña al repo starter [`taller-llm-wiki-starter`](https://github.com/CodigoSinSiesta/taller-llm-wiki-starter), que es el código de partida que clonan los participantes.
 

@@ -8,7 +8,7 @@
     { title: 'Categorías', desc: 'identidad/, conceptos/, herramientas/, proyectos/, referencias/, operativa/. Una página = una idea.' },
     { title: 'Frontmatter YAML', desc: 'tipo, resumen, fuentes, actualizado, tags. Obsidian lo renderiza como Properties; Dataview lo consulta.' },
     { title: 'raw/ efímera', desc: 'Bandeja de entrada. Lees, ingestas, eliminas. Las páginas citan la fuente original, nunca el fichero raw.' },
-    { title: 'index.md plano', desc: 'Tabla de contenidos con una línea por página. Sin él, Claude no sabe qué hay y duplica páginas.' },
+    { title: 'index.md plano', desc: 'Tabla de contenidos con una línea por página. Sin él, el agente no sabe qué hay y duplica páginas.' },
     { title: 'log.md append-only', desc: 'Cada operación queda registrada con formato "[YYYY-MM-DD] tipo | título". Auditable con grep.' },
     { title: 'MOCs temáticos', desc: 'Cuando un dominio acumula >10 páginas, un Map of Content (wiki/<dominio>.md) agrupa con queries Dataview.' }
   ];

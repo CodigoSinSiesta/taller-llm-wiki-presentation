@@ -45,7 +45,7 @@
       <div class="card-glass next-step">
         <span class="cta">Siguiente paso accionable</span>
         <p>
-          Bloquea <strong>30 minutos</strong> en tu calendario para esta misma semana. Lleva una sola fuente que tengas pendiente —URL, PDF, transcript— e ingéstala con Claude.
+          Bloquea <strong>30 minutos</strong> en tu calendario para esta misma semana. Lleva una sola fuente que tengas pendiente —URL, PDF, transcript— e ingéstala con tu agente.
         </p>
         <p>
           Si en una semana no has hecho la primera ingesta real, este taller no se habrá traducido en wiki. La inercia es el único enemigo serio.

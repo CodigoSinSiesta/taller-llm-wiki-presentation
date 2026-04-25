@@ -17,7 +17,7 @@
 
     <h1 class="title">
       LLM <span class="highlight">Wiki</span><br />
-      <span class="subtitle-inline">Tu baúl de conocimiento mantenido por Claude Code</span>
+      <span class="subtitle-inline">Tu baúl de conocimiento mantenido por tu agente de IA</span>
     </h1>
 
     <p class="subtitle">
@@ -29,7 +29,8 @@
       <span class="tool-badge">Markdown</span>
       <span class="tool-badge">YAML frontmatter</span>
       <span class="tool-badge">Obsidian</span>
-      <span class="tool-badge">Claude Code</span>
+      <span class="tool-badge">AGENTS.md</span>
+      <span class="tool-badge">Claude · Codex · OpenCode · Copilot</span>
       <span class="tool-badge highlight-badge">Karpathy pattern</span>
     </div>
 

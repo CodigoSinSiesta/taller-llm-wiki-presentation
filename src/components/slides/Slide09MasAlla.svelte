@@ -7,7 +7,7 @@
   const items = [
     { icon: '🔎', title: 'Dataview', desc: 'Queries sobre tu frontmatter: tablas de páginas por tag, listados de stale notes, conteos por tipo. Hace que el wiki responda preguntas, no solo guarde.' },
     { icon: '🌐', title: 'Graph view + MOCs', desc: 'El graph view de Obsidian detecta clusters y huérfanas. Cuando un cluster pasa de 10 páginas, conviértelo en MOC (wiki/<dominio>.md).' },
-    { icon: '🧪', title: 'Lint asistido', desc: 'Cada 2-4 semanas pide a Claude un lint: huérfanas, contradicciones, conceptos sin página, citas mal apuntadas, data gaps con consultas web.' },
+    { icon: '🧪', title: 'Lint asistido', desc: 'Cada 2-4 semanas pide a tu agente un lint: huérfanas, contradicciones, conceptos sin página, citas mal apuntadas, data gaps con consultas web.' },
     { icon: '🕸️', title: 'Graphify (auditoría puntual)', desc: 'Convierte tu vault en grafo de conocimiento con clusters Leiden. Útil como auditoría, no como pipeline regular. ROI bajo si tu wiki es pequeño.' }
   ];
 </script>
@@ -19,7 +19,7 @@
       <span class="label">Más allá del markdown</span>
       <h2>Cuatro extensiones <span class="highlight">opcionales</span></h2>
       <p class="lead">
-        El wiki funciona con solo markdown + Claude. Estas cuatro extensiones aportan ROI distinto según el tamaño de tu corpus.
+        El wiki funciona con solo markdown + tu agente. Estas cuatro extensiones aportan ROI distinto según el tamaño de tu corpus.
       </p>
     </div>
 

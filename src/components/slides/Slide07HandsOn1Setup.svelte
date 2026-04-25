@@ -12,7 +12,7 @@
       <span class="label hands-on">⚡ Hands-on 1 · 15-20 min</span>
       <h2>Setup desde el <span class="highlight">starter</span></h2>
       <p class="lead">
-        Objetivo: vault abierto en Obsidian, plugins activos, CLAUDE.md adaptado a ti, primer commit.
+        Objetivo: vault abierto en Obsidian, plugins activos, AGENTS.md adaptado a ti, primer commit.
       </p>
     </div>
 
@@ -35,16 +35,19 @@ cd mi-wiki</code></pre>
       </div>
 
       <div class="card-glass">
-        <h3>3 · Lanza Claude Code y personaliza</h3>
-        <pre><code>claude</code></pre>
+        <h3>3 · Arranca tu agente y personaliza</h3>
+        <pre><code>claude     # Claude Code
+codex      # Codex CLI
+opencode   # OpenCode
+# o abre Copilot/Cursor</code></pre>
         <p>Pídele literalmente:</p>
-        <p class="prompt">"Lee CLAUDE.md y la sección Propósito. Hazme 3-5 preguntas cortas para rellenar &lt;TU NOMBRE&gt;, &lt;TU ROL&gt; y los frentes del wiki. Cuando tengas respuestas, edita CLAUDE.md y borra la cita explicativa del starter. No toques nada más."</p>
+        <p class="prompt">"Lee AGENTS.md y la sección Propósito. Hazme 3-5 preguntas cortas para rellenar &lt;TU NOMBRE&gt;, &lt;TU ROL&gt; y los frentes del wiki. Cuando tengas respuestas, edita AGENTS.md y borra la cita explicativa del starter. No toques nada más."</p>
       </div>
 
       <div class="card-glass">
         <h3>4 · Primer commit</h3>
         <pre><code>git add .
-git commit -m "Personalizo CLAUDE.md y arranco mi wiki"</code></pre>
+git commit -m "Personalizo AGENTS.md y arranco mi wiki"</code></pre>
         <p class="hint">Ya tienes la base. El siguiente hands-on convierte una fuente real en páginas conectadas.</p>
       </div>
     </div>

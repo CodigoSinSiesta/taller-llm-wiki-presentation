@@ -21,7 +21,7 @@
         <h3>Parte A · Ingesta (15 min)</h3>
         <ol>
           <li>Lee <code>raw/ejemplo-articulo.md</code> en Obsidian.</li>
-          <li>Pídele a Claude:
+          <li>Pídele a tu agente:
             <p class="prompt">"Léelo entero, identifica la fuente original y proponme un plan: qué páginas crearías o actualizarías, agrupadas por tema. No escribas nada todavía."</p>
           </li>
           <li>Itera el plan hasta que te convenza.</li>
@@ -38,7 +38,7 @@
             <p class="prompt">"¿Cuándo recomiendas usar &lt;concepto-X&gt; y cuándo no? Mira primero index.md y las páginas creadas en el ejercicio anterior. Señala qué partes son del wiki y qué partes vienen de fuera."</p>
           </li>
           <li>Aporta tú un dato propio que no está.</li>
-          <li>Pídele a Claude que decida: <em>página nueva o sección de una existente</em>.</li>
+          <li>Pídele a tu agente que decida: <em>página nueva o sección de una existente</em>.</li>
           <li>Aplica la decisión + entrada <code>meta</code> en log.</li>
         </ol>
       </div>
@@ -46,7 +46,7 @@
 
     <div class="card-glass note">
       <strong>Por qué Parte B importa</strong>
-      <p>El wiki no solo crece por ingesta de raw/. Cada conversación útil con Claude es conocimiento candidato a guardarse. Si no lo archivas, lo pierdes en la siguiente sesión.</p>
+      <p>El wiki no solo crece por ingesta de raw/. Cada conversación útil con tu agente es conocimiento candidato a guardarse. Si no lo archivas, lo pierdes en la siguiente sesión.</p>
     </div>
   </div>
 </div>

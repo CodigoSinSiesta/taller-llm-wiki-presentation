@@ -6,7 +6,7 @@
 
   const pasos = [
     { n: '1', t: 'Lee la fuente entera', d: 'Identifica autor, fecha y URL real. El fichero raw es solo un contenedor efímero.' },
-    { n: '2', t: 'Comenta antes de escribir', d: 'Claude propone un plan: qué páginas crear o actualizar, agrupadas por tema (no por fichero).' },
+    { n: '2', t: 'Comenta antes de escribir', d: 'El agente propone un plan: qué páginas crear o actualizar, agrupadas por tema (no por fichero).' },
     { n: '3', t: 'Itera el plan', d: 'Tú validas: fusiona páginas redundantes, descarta lo que no aporta, añade conexiones que faltan.' },
     { n: '4', t: 'Crea/actualiza desde plantilla', d: 'Cada página parte de templates/<tipo>.md. Frontmatter completo, secciones canónicas, [[wikilinks]].' },
     { n: '5', t: 'Cita la fuente original', d: 'En frontmatter y en cuerpo. NUNCA el fichero raw. La regla protege la portabilidad de tu corpus.' },

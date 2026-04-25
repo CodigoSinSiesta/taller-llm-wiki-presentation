@@ -6,7 +6,7 @@
 
   const piezas = [
     { tag: '01', title: 'Markdown plano', desc: 'Ficheros .md versionados con git. Sin lock-in, sin BBDD, sin builds. Tu corpus es portable y dura décadas.' },
-    { tag: '02', title: 'LLM como redactor', desc: 'Claude (u otro) lee fuentes en bruto, sintetiza, conecta páginas, mantiene índice y log. Trabajo barato y reproducible.' },
+    { tag: '02', title: 'LLM como redactor', desc: 'Tu agente (Claude, Codex, OpenCode, Copilot…) lee fuentes en bruto, sintetiza, conecta páginas, mantiene índice y log. Trabajo barato y reproducible.' },
     { tag: '03', title: 'Humano como editor', desc: 'Tú decides qué entra, citas las fuentes, validas el plan antes de escribir, refinas el resultado. La calidad sigue siendo humana.' }
   ];
 </script>
