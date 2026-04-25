@@ -25,12 +25,13 @@ cd mi-wiki</code></pre>
       </div>
 
       <div class="card-glass">
-        <h3>2 · Abre como vault en Obsidian</h3>
+        <h3>2 · Obsidian + plugins + Web Clipper</h3>
         <p>File → Open vault → <strong>Open folder as vault</strong> → selecciona <code>mi-wiki/</code>.</p>
-        <p>Activa los plugins:</p>
+        <p>Activa:</p>
         <ul>
           <li><strong>Templates</strong> (core) → folder = <code>templates</code></li>
           <li><strong>Dataview</strong> (community)</li>
+          <li><strong>Web Clipper</strong> (extensión de navegador, recomendado) — <a href="https://obsidian.md/clipper" target="_blank" rel="noopener">obsidian.md/clipper</a>. Apunta el vault a <code>mi-wiki/</code> y *Default folder* a <code>raw/</code>.</li>
         </ul>
       </div>
 
