@@ -5,7 +5,7 @@
   onMount(() => { animateSlideEntrance(slideElement); });
 
   const partes = [
-    { title: 'Categorías', desc: 'identidad/, conceptos/, herramientas/, proyectos/, referencias/, operativa/. Una página = una idea.' },
+    { title: 'Categorías propias', desc: 'Tú decides qué subcarpetas tiene wiki/ tras la entrevista de finalidad. El patrón no impone vertical: una página = una idea, las carpetas las nombras tú.' },
     { title: 'Frontmatter YAML', desc: 'tipo, resumen, fuentes, actualizado, tags. Obsidian lo renderiza como Properties; Dataview lo consulta.' },
     { title: 'raw/ efímera', desc: 'Bandeja de entrada. Lees, ingestas, eliminas. Las páginas citan la fuente original, nunca el fichero raw.' },
     { title: 'index.md plano', desc: 'Tabla de contenidos con una línea por página. Sin él, el agente no sabe qué hay y duplica páginas.' },

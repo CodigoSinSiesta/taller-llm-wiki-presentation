@@ -9,10 +9,10 @@
   <div class="slide-background"></div>
   <div class="slide-content">
     <div class="slide-header">
-      <span class="label hands-on">⚡ Hands-on 1 · 15-20 min</span>
-      <h2>Setup desde el <span class="highlight">starter</span></h2>
+      <span class="label hands-on">⚡ Hands-on 1 · 20-25 min</span>
+      <h2>Setup + <span class="highlight">Entrevista de finalidad</span></h2>
       <p class="lead">
-        Objetivo: vault abierto en Obsidian, plugins activos, AGENTS.md adaptado a ti, primer commit.
+        Objetivo: vault abierto en Obsidian, plugins activos, finalidad del wiki definida con el agente (estructura inicial decidida), primer commit.
       </p>
     </div>
 
@@ -34,21 +34,22 @@ cd mi-wiki</code></pre>
         </ul>
       </div>
 
-      <div class="card-glass">
-        <h3>3 · Arranca tu agente y personaliza</h3>
+      <div class="card-glass key-step">
+        <h3>3 ⭐ · Arranca tu agente y haz la <em>Entrevista de finalidad</em></h3>
         <pre><code>claude     # Claude Code
 codex      # Codex CLI
 opencode   # OpenCode
 # o abre Copilot/Cursor</code></pre>
         <p>Pídele literalmente:</p>
-        <p class="prompt">"Lee AGENTS.md y la sección Propósito. Hazme 3-5 preguntas cortas para rellenar &lt;TU NOMBRE&gt;, &lt;TU ROL&gt; y los frentes del wiki. Cuando tengas respuestas, edita AGENTS.md y borra la cita explicativa del starter. No toques nada más."</p>
+        <p class="prompt">"Lee AGENTS.md entero. Después hazme una <em>Entrevista de finalidad</em>: 4-6 preguntas cortas sobre para qué voy a usar este wiki, qué fuentes voy a meter y si hay subdominios obvios. Cuando tengas mis respuestas, propóname qué subcarpetas crear en wiki/ y qué plantillas mover desde templates/opcionales/. No escribas nada hasta que apruebe el plan."</p>
+        <p class="hint">El agente actualiza la sección <em>Propósito</em> de AGENTS.md, crea las subcarpetas y registra todo en wiki/log.md.</p>
       </div>
 
       <div class="card-glass">
         <h3>4 · Primer commit</h3>
         <pre><code>git add .
-git commit -m "Personalizo AGENTS.md y arranco mi wiki"</code></pre>
-        <p class="hint">Ya tienes la base. El siguiente hands-on convierte una fuente real en páginas conectadas.</p>
+git commit -m "Setup inicial: AGENTS.md personalizado y estructura definida"</code></pre>
+        <p class="hint">Ya tienes la base con la forma de tu caso. El siguiente hands-on convierte una fuente real en páginas conectadas.</p>
       </div>
     </div>
   </div>
@@ -83,10 +84,15 @@ git commit -m "Personalizo AGENTS.md y arranco mi wiki"</code></pre>
     background: linear-gradient(135deg, var(--color-accent-bright), var(--color-electric));
     -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
   }
-  .lead { font-size: clamp(1rem, 1.6vw, 1.2rem); opacity: 0.85; max-width: 800px; margin: 0; }
+  .lead { font-size: clamp(1rem, 1.6vw, 1.2rem); opacity: 0.85; max-width: 900px; margin: 0; }
 
   .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-lg); }
   .card-glass { padding: var(--spacing-xl); display: flex; flex-direction: column; gap: var(--spacing-sm); }
+  .card-glass.key-step {
+    border: 1px solid rgba(96, 165, 250, 0.45);
+    background: rgba(30, 58, 138, 0.22);
+    box-shadow: 0 8px 32px rgba(10, 22, 40, 0.85), 0 0 24px rgba(59, 130, 246, 0.15);
+  }
   .card-glass h3 {
     margin: 0; font-size: 1rem; font-family: var(--font-mono);
     color: var(--color-electric); letter-spacing: 0.04em;
@@ -120,6 +126,7 @@ git commit -m "Personalizo AGENTS.md y arranco mi wiki"</code></pre>
     background: rgba(96, 165, 250, 0.08);
     border-left: 3px solid var(--color-electric);
     border-radius: var(--radius-sm);
+    font-size: 0.88rem;
   }
 
   .hint { font-size: 0.85rem; opacity: 0.7; }
