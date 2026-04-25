@@ -11,7 +11,7 @@
     { n: '4', t: 'Crea/actualiza desde plantilla', d: 'Cada página parte de templates/<tipo>.md. Frontmatter completo, secciones canónicas, [[wikilinks]].' },
     { n: '5', t: 'Cita la fuente original', d: 'En frontmatter y en cuerpo. NUNCA el fichero raw. La regla protege la portabilidad de tu corpus.' },
     { n: '6', t: 'Actualiza index.md y log.md', d: 'Una línea por página nueva en index, una entrada `## [YYYY-MM-DD] ingest | …` en log.' },
-    { n: '7', t: 'Elimina el raw', d: 'La bandeja queda vacía. Si la dejas con basura, la siguiente ingesta tarda más en arrancar.' }
+    { n: '7', t: 'Aplica tu política de raw/', d: 'Conservar (default), archivar a raw/_archived/<año>/ o eliminar. Lo decides tú en la Entrevista de finalidad. Notas propias y transcripciones únicas suelen pedir conservar.' }
   ];
 </script>
 

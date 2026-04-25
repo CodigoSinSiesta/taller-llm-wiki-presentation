@@ -41,7 +41,7 @@ codex      # Codex CLI
 opencode   # OpenCode
 # o abre Copilot/Cursor</code></pre>
         <p>Pídele literalmente:</p>
-        <p class="prompt">"Lee AGENTS.md entero. Después hazme una <em>Entrevista de finalidad</em>: 4-6 preguntas cortas sobre para qué voy a usar este wiki, qué fuentes voy a meter y si hay subdominios obvios. Cuando tengas mis respuestas, propóname qué subcarpetas crear en wiki/ y qué plantillas mover desde templates/opcionales/. No escribas nada hasta que apruebe el plan."</p>
+        <p class="prompt">"Lee AGENTS.md entero. Después hazme una <em>Entrevista de finalidad</em>: 5-7 preguntas cortas sobre finalidad, qué fuentes voy a meter (incluyendo notas propias o chats), <strong>qué política aplicar a raw/ tras ingestar (conservar / archivar / eliminar)</strong>, y si hay subdominios obvios. Cuando tengas mis respuestas, propóname subcarpetas + plantillas a activar + política de raw/. No escribas nada hasta que apruebe el plan."</p>
         <p class="hint">El agente actualiza la sección <em>Propósito</em> de AGENTS.md, crea las subcarpetas y registra todo en wiki/log.md.</p>
       </div>
 
