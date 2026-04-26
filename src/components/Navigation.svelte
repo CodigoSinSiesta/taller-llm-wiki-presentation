@@ -17,8 +17,10 @@
   const slideNames = [
     'hero',
     'problema',
+    'knowledge-graph',
     'idea-karpathy',
     'anatomia',
+    'vault-decision',
     'plantillas',
     'flujo-ingesta',
     'hands-on-setup',
@@ -30,8 +32,10 @@
   const slideTitles: Record<(typeof slideNames)[number], string> = {
     hero: 'Inicio',
     problema: 'El problema',
+    'knowledge-graph': 'Knowledge graph',
     'idea-karpathy': 'La idea (Karpathy)',
     anatomia: 'Anatomía del wiki',
+    'vault-decision': 'Human vs LLM vault',
     plantillas: 'Plantillas y vocabulario',
     'flujo-ingesta': 'Flujo de ingesta',
     'hands-on-setup': 'Hands-on 1 · Setup',

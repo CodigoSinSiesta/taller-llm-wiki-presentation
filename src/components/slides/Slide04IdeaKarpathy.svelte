@@ -35,10 +35,17 @@
       {/each}
     </div>
 
-    <div class="card-glass why-now">
-      <h3>¿Por qué ahora?</h3>
+    <blockquote class="card-glass karpathy-quote">
       <p>
-        Hasta 2024, mantener un wiki personal cuidado costaba más de lo que valía. Con un LLM-redactor barato, el equilibrio se invierte: el coste marginal de añadir una página es cercano a cero, y la fricción de consultarla baja porque está bien escrita y conectada.
+        "Instead of just retrieving from raw documents at query time, the LLM <strong>incrementally builds and maintains a persistent wiki</strong>, a structured interlinked collection of markdown files that sits between you and the raw sources. The knowledge is <strong>compiled once and then kept current</strong>. It's not rederived on every query."
+      </p>
+      <footer>— Andrej Karpathy, <cite>LLM Wiki</cite></footer>
+    </blockquote>
+
+    <div class="card-glass librarian">
+      <h3>Lo que necesitas no es un chatbot — es un bibliotecario</h3>
+      <p>
+        RAG vectorial te devuelve fragmentos sueltos por similitud. Funciona para "¿qué es X?". Falla cuando la respuesta vive <em>entre</em> documentos: qué libro llevó a cuál, qué capítulos están relacionados, qué ideas dependen de otras. Un wiki interconectado da al agente lo que un bibliotecario daría a un investigador: rutas, no fragmentos.
       </p>
     </div>
   </div>
@@ -92,9 +99,30 @@
     padding: 0 var(--spacing-sm);
   }
 
-  .why-now { padding: var(--spacing-xl); }
-  .why-now h3 { margin: 0 0 var(--spacing-sm) 0; font-size: 1.1rem; color: var(--color-electric); }
-  .why-now p { margin: 0; opacity: 0.9; line-height: 1.6; }
+  .karpathy-quote {
+    padding: var(--spacing-xl);
+    border-left: 3px solid var(--color-electric);
+    margin: 0;
+  }
+  .karpathy-quote p {
+    margin: 0 0 var(--spacing-md) 0;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    opacity: 0.92;
+    font-style: italic;
+  }
+  .karpathy-quote strong { font-style: normal; color: var(--color-accent-bright); font-weight: 600; }
+  .karpathy-quote footer {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--color-electric);
+    opacity: 0.85;
+  }
+  .karpathy-quote cite { font-style: normal; }
+
+  .librarian { padding: var(--spacing-xl); }
+  .librarian h3 { margin: 0 0 var(--spacing-sm) 0; font-size: 1.1rem; color: var(--color-electric); }
+  .librarian p { margin: 0; opacity: 0.9; line-height: 1.6; }
 
   @media (max-width: 900px) {
     .pipeline { grid-template-columns: 1fr; }
