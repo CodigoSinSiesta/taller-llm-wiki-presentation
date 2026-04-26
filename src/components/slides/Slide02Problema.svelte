@@ -6,6 +6,7 @@
 
   const sintomas = [
     { icon: '💬', title: 'Chats sin estado', desc: 'Cada sesión con Claude/ChatGPT empieza desde cero. Lo bueno que descubriste ayer no llega a hoy.' },
+    { icon: '🧱', title: 'Contexto fragmentado entre tools', desc: 'Memoria de Claude, memoria de Cursor, memoria de Codex, memoria de ChatGPT. El conocimiento existe — atrapado en silos que no se hablan.' },
     { icon: '📂', title: 'Notas dispersas', desc: 'Apple Notes, Notion, Bear, Drafts, post-its. Cinco apps, cero recuperación.' },
     { icon: '🔖', title: 'Bookmarks que nunca relees', desc: 'Pinboard, Raindrop, una carpeta de favoritos del navegador. URLs sin contexto, fríos al volver.' },
     { icon: '🪦', title: 'Notion como cementerio', desc: 'Bases de datos preciosas que nadie consulta. Estructura sin uso = ruido caro.' }
@@ -19,7 +20,7 @@
       <span class="label">El problema</span>
       <h2>El conocimiento personal <span class="highlight">se evapora</span></h2>
       <p class="lead">
-        Cuatro síntomas que reconocerás. Si te pasan los cuatro, este taller es para ti.
+        Cinco síntomas que reconocerás. Si te pasan tres o más, este taller es para ti.
       </p>
     </div>
 
