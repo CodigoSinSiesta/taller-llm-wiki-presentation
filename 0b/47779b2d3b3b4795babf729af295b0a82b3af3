@@ -1,0 +1,41 @@
+src/components/slides/Slide06VaultDecision.svelte
+  s_0851cae21a93e5::t_4507af613ad932 2-3,5-10,13,17,21,23-24
+src/components/slides/Slide08FlujoIngesta.svelte
+  s_0851cae21a93e5::t_dcc461c32a8082 2,5-43
+src/components/slides/Slide03KnowledgeGraph.svelte
+  s_0851cae21a93e5::t_66e3aaf369226c 2,5-26
+src/components/slides/Slide05Anatomia.svelte
+  s_0851cae21a93e5::t_38df4782cd3085 2,5-36
+src/components/slides/Slide04IdeaKarpathy.svelte
+  s_0851cae21a93e5::t_cf8652f4a6f65d 2,5-19
+src/components/slides/Slide09HandsOn1Setup.svelte
+  s_0851cae21a93e5::t_4d654c7220a6fb 2,5-32
+src/components/slides/Slide01Hero.svelte
+  s_0851cae21a93e5::t_9807503bf4a3fd 2,5-26
+src/components/slides/Slide11MasAlla.svelte
+  s_0851cae21a93e5::t_aee68d1d31c100 2,5-28
+src/components/slides/Slide12Cierre.svelte
+  s_0851cae21a93e5::t_3e761f41c097a6 2,5-24
+src/components/slides/Slide10HandsOn2Ingest.svelte
+  s_0851cae21a93e5::t_2f88cf9cdd27c3 2,5-23
+src/components/slides/Slide07Plantillas.svelte
+  s_0851cae21a93e5::t_17b20a66be3fae 2,5-28
+src/components/slides/Slide02Problema.svelte
+  s_0851cae21a93e5::t_65112d38f368fa 2,5-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "0b47779b2d3b3b4795babf729af295b0a82b3af3",
+  "prompts": {},
+  "sessions": {
+    "s_0851cae21a93e5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8adf6cab-2a03-46e5-8509-a8c3aad9a219",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Alejandro de la Fuente de la Rosa <alejandro.delafuentedelarosa@emeal.nttdata.com>"
+    }
+  }
+}
